@@ -32,8 +32,8 @@ const Contact = () => {
       <h4 className="section-subtitle pb-14" data-aos="fade-up" data-aos-duration="1000">
         syed.mohammad.yasir329@gmail.com
       </h4>
-      <form ref={form} onSubmit={sendEmail} data-aos="fade-up" data-aos-duration="1000">
-        <div className="flex w-full">
+      {/* <form ref={form} onSubmit={sendEmail} data-aos="fade-up" data-aos-duration="1000">
+        <div className="flex flex-col lg:flex-row w-full">
           <div className="w-full mb-[34px] px-3">
             <label className="block text-sm mb-1  tracking-wider">
               FULL NAME<span className="text-red-500 text-lg font-semibold">*</span>
@@ -74,7 +74,7 @@ const Contact = () => {
           className="bg-primary p-3 rounded-full cursor-pointer text-black w-full lg:w-2/5"
           disabled={isLoading}
         />
-      </form>
+      </form> */}
     </div>
   );
 };

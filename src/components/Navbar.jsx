@@ -58,10 +58,10 @@ const Navbar = ({
       </div>
 
       {/* Mobile Navigation  */}
-      <div className="md:hidden ">
+      <div className="md:hidden w-full">
         <div
           id="nav icon"
-          className="text-2xl fixed top-6 right-8"
+          className="text-3xl fixed top-6 left-8"
           onClick={() => {
             setIsOpen(!isOpen);
           }}
@@ -69,10 +69,10 @@ const Navbar = ({
           <HiBars3 />
         </div>
         {isOpen && (
-          <div className="fixed top-0 right-0 bg-black opacity-90">
+          <div className="fixed top-0 left-0 bg-black opacity-90">
             <div>
               <div
-                className="absolute top-6 right-8 text-2xl"
+                className="absolute top-6 left-8 text-3xl"
                 onClick={() => {
                   setIsOpen(!isOpen);
                 }}

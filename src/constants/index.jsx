@@ -169,25 +169,25 @@ export const experiences = [
   {
     id: '4',
     title: 'Backend Developer (Intern)',
-    company_name: 'DomumGym LLC',
+    company_name: 'DomumGym LLC, Seattle, USA',
     date: 'Jul 2023 - Present',
   },
   {
     id: '1',
     title: 'Co-founder & CEO',
-    company_name: 'Levia',
+    company_name: 'Levia, Chittagong, Bangladesh',
     date: 'Jan 2019 - Nov 2022',
   },
   {
     id: '2',
     title: 'Officer Cadet (OC)',
-    company_name: 'Bangladesh Military Academy',
+    company_name: 'Bangladesh Military Academy, Chittagong, Bangladesh',
     date: 'Dec 2014 - April 2016',
   },
   {
     id: '3',
     title: 'B. Sc in Computer Science & Engineering',
-    company_name: 'University of Chittagong',
+    company_name: 'University of Chittagong, Bangladesh',
     date: 'Jan 2014 - Dec 2019',
   },
 ];

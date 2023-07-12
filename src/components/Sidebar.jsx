@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { FaFacebookF, FaGithub, FaLinkedin, FaStackOverflow } from 'react-icons/fa6';
 import { LiaEnvelopeSolid } from 'react-icons/lia';
 const Sidebar = () => {
@@ -7,7 +7,7 @@ const Sidebar = () => {
   console.log(characters);
   return (
     <div className="">
-      <div className="border border-secondary rounded-2xl flex flex-col justify-center items-center lg:top-1/2 lg:transform lg:-translate-y-1/2 p-6 lg:p-3 lg:fixed bg-black">
+      <div className="border border-secondary rounded-2xl flex flex-col w-screen lg:w-fit justify-center items-center lg:top-1/2 lg:transform lg:-translate-y-1/2 p-6 lg:p-3 lg:fixed bg-black">
         <div className="circle relative w-[220px] h-[220px] rounded-full flex justify-center items-center mt-5 mb-12">
           <div
             className={`logo absolute w-40 h-40 rounded-full bg-[url('../src/assets/images/yasir.jpeg')] bg-cover bg-center`}
