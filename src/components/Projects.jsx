@@ -2,15 +2,14 @@ import React from 'react';
 import SectionBadge from './SectionBadge';
 import { IoGridOutline } from 'react-icons/io5';
 import { projects } from '../constants';
+import SectionTitle from './SectionTitle';
 
 const Projects = () => {
   return (
     <div className="pt-[50px] pb-[90px]">
       <SectionBadge title={'Personal Projects'} icon={<IoGridOutline />} />
-      <p className="text-[48px] leading-[60px] mb-[43px]">
-        Featured
-        <span className="text-primary"> Projects</span>
-      </p>
+      <SectionTitle title={'Featured'} decorate={'Projects'} />
+
       {projects.map((project, index) => (
         <div key={index} data-aos="fade-up" data-aos-duration="1000">
           <div className="relative">
