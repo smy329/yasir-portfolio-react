@@ -39,7 +39,7 @@ const Projects = () => {
               {project.tags.map((tag, idx) => (
                 <span
                   key={idx}
-                  className="inline-block bg-gray-900  hover:bg-gray-200 hover:text-black  px-4 py-1 mx-1 text-sm rounded-full"
+                  className="inline-block bg-gray-900  hover:bg-gray-200 hover:text-black  px-3 py-1 mx-1 my-0.5 text-sm rounded-full"
                 >
                   {tag}
                 </span>

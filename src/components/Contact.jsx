@@ -27,7 +27,7 @@ const Contact = () => {
   };
   return (
     <div className="pt-[60px] pb-[90px]">
-      <SectionBadge title={'Experiences'} icon={<LiaEnvelopeSolid />} />
+      <SectionBadge title={'Contact'} icon={<LiaEnvelopeSolid />} />
       <SectionTitle title={"Let's"} decorated={'Work Together'} />
       <h4 className="section-subtitle pb-14" data-aos="fade-up" data-aos-duration="1000">
         syed.mohammad.yasir329@gmail.com

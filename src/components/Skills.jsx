@@ -18,7 +18,8 @@ const Skills = () => {
               data-aos="zoom-in"
               data-aos-duration="1000"
             >
-              <img src={skill.icon} alt="skill" className="h-[100px] lg:h-[100px] w-auto my-6" />
+              {/* <img src={skill.icon} alt="skill" className="h-[100px] lg:h-[100px] w-auto my-6" /> */}
+              <div className="text-8xl  my-6">{skill.icon}</div>
               <p className="text-primary text-lg">{skill.name}</p>
             </div>
           ))}

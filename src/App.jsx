@@ -50,7 +50,6 @@ function App() {
           <div ref={experiencesRef}>
             <Experience />
           </div>{' '}
-          */
           {/* <div ref={educationRef}>
             <Education />
           </div> */}
