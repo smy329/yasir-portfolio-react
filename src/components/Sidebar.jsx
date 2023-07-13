@@ -47,14 +47,21 @@ const Sidebar = () => {
         </div>
 
         <div className="w-full flex justify-center mb-7 ">
-          <button className="bg-primary w-5/6 flex justify-center p-3 rounded-full">
-            <div className="flex gap-4 items-center text-black">
-              <div className="text-3xl">
-                <LiaEnvelopeSolid />
+          <a
+            href="https://drive.google.com/file/d/15p3o56qlNoxjFYkJUsqPCTFR8MvWBV0X/view?usp=sharing"
+            target="_blank"
+            rel="noreferrer"
+            className="w-full flex justify-center "
+          >
+            <button className="bg-primary hover:bg-black border border-primary w-5/6 p-3 rounded-full text-black hover:text-primary">
+              <div className="flex gap-4 items-center justify-center ">
+                <div className="text-3xl">
+                  <LiaEnvelopeSolid />
+                </div>
+                <p className="">HIRE ME !</p>
               </div>
-              <span>HIRE ME !</span>
-            </div>
-          </button>
+            </button>
+          </a>
         </div>
       </div>
     </div>
