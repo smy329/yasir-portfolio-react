@@ -32,18 +32,27 @@ const Sidebar = () => {
           <p className="text-sm mb-6 text-center text-secondary">© 2022 Yasir. All Rights Reserved</p>
         </div>
         <div className="flex gap-2 mb-7">
-          <div className="p-3 border-2 border-secondary hover:border-primary rounded-full text-xl text-secondary hover:text-primary cursor-pointer">
-            <FaLinkedin />
-          </div>
-          <div className="p-3 border-2 border-secondary rounded-full text-xl text-secondary hover:text-primary hover:border-primary cursor-pointer">
-            <FaFacebookF />
-          </div>
-          <div className="p-3 border-2 border-secondary rounded-full text-xl text-secondary hover:text-primary hover:border-primary cursor-pointer">
-            <FaGithub />
-          </div>
-          <div className="p-3 border-2 border-secondary rounded-full text-xl text-secondary hover:text-primary hover:border-primary cursor-pointer">
-            <FaStackOverflow />
-          </div>
+          <a href="https://www.linkedin.com/in/syedmohammadyasir/" target="_blank" rel="noreferrer">
+            <div className="p-3 border-2 border-secondary hover:border-primary rounded-full text-xl text-secondary hover:text-primary cursor-pointer">
+              <FaLinkedin />
+            </div>
+          </a>
+
+          <a href="https://github.com/smy329" target="_blank" rel="noreferrer">
+            <div className="p-3 border-2 border-secondary rounded-full text-xl text-secondary hover:text-primary hover:border-primary cursor-pointer">
+              <FaGithub />
+            </div>
+          </a>
+          <a href="https://stackoverflow.com/users/8733282/syed-mohammad-yasir" target="_blank" rel="noreferrer">
+            <div className="p-3 border-2 border-secondary rounded-full text-xl text-secondary hover:text-primary hover:border-primary cursor-pointer">
+              <FaStackOverflow />
+            </div>
+          </a>
+          <a href="https://www.facebook.com/cyasir" target="_blank" rel="noreferrer">
+            <div className="p-3 border-2 border-secondary rounded-full text-xl text-secondary hover:text-primary hover:border-primary cursor-pointer">
+              <FaFacebookF />
+            </div>
+          </a>
         </div>
 
         <div className="w-full flex justify-center mb-7 ">
