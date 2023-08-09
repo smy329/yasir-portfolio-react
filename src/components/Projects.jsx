@@ -16,7 +16,7 @@ const Projects = () => {
             <img
               src={project.image}
               alt=""
-              className="h-[300px] lg:h-[500px] w-full object-cover object-top rounded-xl z-0 mt-20"
+              className="h-[300px] lg:h-[500px] w-full object-cover object-left-top rounded-xl z-0 mt-20"
             />
             <div className="absolute top-2 right-2 flex">
               <span className="bg-gray-900 hover:bg-primary hover:text-black px-5 py-2 mx-1 text-sm font-semibold rounded-full ">

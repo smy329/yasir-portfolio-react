@@ -1,4 +1,4 @@
-import { disneyPalace, flavorFusion, melodyMakers } from '../assets';
+import { disneyPalace, flavorFusion, melodyMakers, playmotion } from '../assets';
 import {
   BiLogoCss3,
   BiLogoGithub,
@@ -162,6 +162,16 @@ export const projects = [
     clientRepo: 'https://github.com/smy329/flavor-fusion-client-react',
     ServerRepo: 'https://github.com/smy329/flavor-fusion-server-express.js',
     demo: 'https://chef-recipe-558e5.web.app/',
+  },
+  {
+    id: 'project-4',
+    name: 'Playmotion: A Simple Video Platform Website',
+    description: 'This is a video platform website. You will find various types of videos here.',
+    tags: ['React', 'React-Redux', 'Redux-Thunk', 'Redux-Toolkit', 'JSON Server', 'Axios'],
+    image: playmotion,
+    clientRepo: 'https://github.com/smy329/playmotion-client',
+    ServerRepo: 'https://github.com/smy329/playmotion-server-json-server',
+    demo: 'https://playmotion-client.netlify.app/',
   },
 ];
 
